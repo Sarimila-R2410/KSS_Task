@@ -1,0 +1,13 @@
+1. Read the entire text from show_version.txt.
+
+2. Dictionary Parsing: 
+Used regex to find key–value pairs.
+For each match, excluded entries where either key or value contains "reload". Stored the remaining data in data_dict.
+
+3.Reload Info Extraction:
+Regex that matches any line containing "reload".
+Loop through each line, if the line contains "reload" and is not already in reload_info, add it.
+
+
+
+
